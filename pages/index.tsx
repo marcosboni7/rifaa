@@ -4,7 +4,7 @@ import '../styles/Home.module.css'
 export default function rifas() {
   return (
 
-    <div className="App">
+    <div style={{backgroundColor:"black"}} className="App">
       <header className="bg-white bg-opacity-5 text-white shadow-lg hidden md:block">
         <div className="container mx-auto flex items-center h-24">
           <a href="" className="flex items-center justify-center">
@@ -40,7 +40,7 @@ export default function rifas() {
               </li>
             </ul>
           </nav>
-          <button className="botao border border-white rounded-full font-bold px-8 py-2">Contact mee</button>
+          <a href='login.tsx' className="botao border border-white rounded-full font-bold px-8 py-2">LOGIN</a>
         </div>
       </header>
       <div className="bg-[url('https://cdn.discordapp.com/attachments/1063180963439464641/1063653322894098443/banner.jpg')]"
